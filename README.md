@@ -7,8 +7,8 @@ Chat Server
 
 Clone the repo
 ```
-> git clone https://github.com/jhudson8/golang-chat-example.git
-> cd golang-chat-example
+> git clone https://github.com/fendijatmiko/golang-chat.git
+> cd golang-chat
 ```
 
 Edit the server/client configuration as you need (```config.json```)
