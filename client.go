@@ -44,7 +44,7 @@ func getConfig() (string, util.Properties) {
 		properties := util.LoadConfig()
 		return username, properties
 	} else {
-		println("You must provide the username as the first parameter ")
+		println("Harus memasukan username ")
 		os.Exit(1)
 		return "", util.Properties{}
 	}

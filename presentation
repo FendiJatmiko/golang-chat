@@ -1,0 +1,21 @@
+ "judul -> " : "presentasi workshop"
+                "membangun aplikasi chat menggunakan golang"
+    1. program ini terdiri dari beberapa program utama yaitu :
+        - server.go                 -> beberapa fungsi utama dari server.go adalah menghandle request, membedakan antara command dan pesan
+
+        - client.go                 -> client.go berfungsi sebagai program utama untuk chat dengan merequest ke server kemudian 
+                                        server.go menanggapi request dengan merespond client yang baru masuk dan menempatkan di default room
+                                        yaitu lobby, beberapa perintah yang tersedia adalah : 
+                                         a. /enter      -> perintah untuk membuat room baru(bila room belum ada)
+                                            dan client tersebut akan langsung berpindah ke room tersebut.
+                                         b. /leave      -> perintah untuk keluar dari room, dan kembali ke room default yaitu lobby
+                                        
+                                         c. /ignore     -> perintah yang digunakan untuk meng-ignore salah satu atau beberapa user
+                                         d. /disconnect -> untuk keluar dari room / disconnect
+        - ./util/util.go            -> adalah utility untuk mendeklarasikan struct "cliet", "log", "properties"
+        - ./endpoint/json/json.go   -> adalah pengaturan endpoint, jika chat server dijalankan maka dapat dilihat historynya pada 
+                                        localhost:8080(default config), beberapa perintah query yang dapat digunakan antara lain : 
+                                        localhost:8080/messages/all                         : all messages
+                                        localhost:8080/messages/search/{search term}        : contoh = /messages/search/hello
+                                        localhost:8080/user/{username}                      : contoh = /user/ace
+        - config.jsoni              -> adalah pengaturan utama
