@@ -14,3 +14,6 @@
 ``````
 ### this is how it's looks like
 <img style="float: right;" src="https://s31.postimg.org/cpp7xja1n/Screenshot_golang_Chat.png">
+
+### kie dab buka link iki [link](https://rocky-reaches-43295.herokuapp.com/#/)
+### kui contoh presentasi ne . .karo di fahami sik. .ndi jeneng karo nim mu. .karo jeneng'e kancamu le meh melu
