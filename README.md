@@ -12,4 +12,4 @@
 `````` 
     > go run client.go [username2]
 ``````
-<img style="float: right;" src="https://www.dropbox.com/s/ne44u3mlp5egjsf/Screenshot_golangChat.ping?dl=0">
+<img style="float: right;" src="https://s31.postimg.org/cpp7xja1n/Screenshot_golang_Chat.png">
