@@ -12,4 +12,5 @@
 `````` 
     > go run client.go [username2]
 ``````
+### this is how it's looks like
 <img style="float: right;" src="https://s31.postimg.org/cpp7xja1n/Screenshot_golang_Chat.png">
