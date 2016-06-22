@@ -12,6 +12,8 @@
 `````` 
     > go run client.go [username2]
 ``````
+ to compile on 32bit windows machine
+``` > GOOS=windows GOARCH=386 go build
 ### this is how it's looks like
 <img style="float: right;" src="https://s31.postimg.org/cpp7xja1n/Screenshot_golang_Chat.png">
 
